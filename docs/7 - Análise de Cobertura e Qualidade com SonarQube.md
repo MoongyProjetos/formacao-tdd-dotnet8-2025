@@ -265,4 +265,4 @@ Receita.
 
 
 ````
-![alt text](imagens/amazon.png)
+![alt text](./imagens/amazon.png)
