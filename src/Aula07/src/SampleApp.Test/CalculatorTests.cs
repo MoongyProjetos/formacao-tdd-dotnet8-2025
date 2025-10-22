@@ -1,4 +1,5 @@
 using Xunit;
+using SampleApp;
 
 namespace SampleApp.Tests
 {
@@ -7,15 +8,13 @@ namespace SampleApp.Tests
         [Fact]
         public void Add_ShouldReturnCorrectSum()
         {
-            var calc = new SampleApp.Calculator();
-            Assert.Equal(5, calc.Add(2, 3));
+            Assert.Equal(5, Calculator.Add(2, 3));
         }
 
         [Fact]
         public void Divide_ByZero_ShouldThrowException()
         {
-            var calc = new SampleApp.Calculator();
-            Assert.Throws<System.DivideByZeroException>(() => calc.Divide(5, 0));
+            Assert.Throws<System.DivideByZeroException>(() => Calculator.Divide(5, 0));
         }
     }
 }
