@@ -41,6 +41,9 @@
 
 Crie uma **API simples de tarefas (To-Do)**, com testes, integração e pipeline configurados.
 
+
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-9.0&tabs=visual-studio
+
 #### Funcionalidades básicas
 
 | Endpoint                 | Descrição                |
